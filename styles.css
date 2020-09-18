@@ -1,0 +1,216 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+  background-color: #f5f5f5;
+  width: 90%;
+}
+
+main {
+  background-color: #fff;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin: auto;
+}
+
+
+header {
+  padding-bottom: 25px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+nav {
+  padding-bottom: 50px;
+  padding-top: 25px;
+  color: #8B8B8B;
+  border-bottom: 1px solid lightgray;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 10px;
+  font-size: 28px;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+
+
+
+
+
+.box-model {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+}
+.images2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.bot {
+  display: inline;
+  margin: 0 15px;
+  font-size: 12px;
+}
+
+.contact {
+  color: #787878;
+}
+
+.top {
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 8px 0;
+  font-weight: bold;
+}
+
+.hide {
+  display: none
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+header {
+  overflow: auto;
+}
+nav {
+  display: inline-block;
+}
+.nav {
+  width: 500px;
+}
+.top {
+  display: inline;
+  background-color: #f5f5f5;
+  margin: 5px;
+}
+.images2 {
+  float: right;
+  max-width: 40%;
+  margin-top: 20px;
+}
+.pp {
+  font-size: 17px;
+  float: left;
+  max-width: 50%;
+  margin-top: 20px;
+}
+.box-model {
+  display: table-cell;
+}
+
+.table1 {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+.table2 {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+
+.hide {
+  display: inline-block;
+    width: 100%;
+}
+.show {
+  display: none;
+}
+.title2 {
+  float: left;
+}
+.top2 {
+  float: right;
+  font-size: .8em;
+  margin: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+
+header {
+  overflow: auto;
+  padding-bottom: 50px;
+}
+main {
+  overflow: auto;
+}
+
+.title {
+  float: left;
+}
+.top {
+  float: right;
+  margin: 0 10px;
+  font-weight: bold;
+  display: inline;
+  background-color: #f5f5f5;
+}
+
+.images2 {
+  float: right;
+  max-width: 40%;
+  margin-top: 50px;
+}
+.pp {
+  font-size: 17px;
+  float: left;
+  max-width: 50%;
+  margin-top: 20px;
+}
+.hide {
+  display: inline-block;
+    width: 100%;
+}
+.show {
+  display: none;
+}
+.title2 {
+  float: left;
+}
+.top2 {
+  float: right;
+  font-size: .8em;
+  margin: 5px;
+}
+
+
+
+}
